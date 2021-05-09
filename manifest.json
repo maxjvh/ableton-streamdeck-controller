@@ -1,0 +1,36 @@
+{
+  "Actions": [
+    {
+      "Icon": "pluginIcon",
+      "Name": "Play/pause",
+      "States": [
+        {
+          "Image": "pluginIcon",
+          "Name": "State",
+          "Title": "Play",
+          "TitleAlignment": "middle"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "UUID": "audio.mjvh.ableton.playpause"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "mjvh",
+  "CodePath": "plugin.js",
+  "Description": "",
+  "Name": "Ableton Control",
+  "Icon": "pluginIcon",
+  "URL": "https://github.com/maxjvh/ableton-streamdeck-controller",
+  "Version": "1.4",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.12"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
